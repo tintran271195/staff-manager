@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/staff")
-public class StaffApi {
+public class StaffAPI {
 
     @Autowired
     private IStaffService staffService;
