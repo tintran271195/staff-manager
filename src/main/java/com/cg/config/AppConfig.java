@@ -1,5 +1,9 @@
 package com.cg.config;
 
+import com.cg.service.department.DepartmentService;
+import com.cg.service.department.IDepartmentService;
+import com.cg.service.staff.IStaffService;
+import com.cg.service.staff.StaffService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -42,6 +46,16 @@ public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
+    }
+
+    @Bean
+    public IStaffService staffService() {
+        return new StaffService();
+    }
+
+    @Bean
+    public IDepartmentService departmentService() {
+        return new DepartmentService();
     }
 
     //Cấu hình Thymleaf
