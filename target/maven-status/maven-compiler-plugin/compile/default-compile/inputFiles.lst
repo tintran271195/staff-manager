@@ -1,4 +1,11 @@
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\service\staff\IStaffService.java
 D:\Example Spring MVC\staff-manager\src\main\java\com\cg\model\Department.java
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\service\department\DepartmentService.java
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\repository\IDepartmentRepository.java
 D:\Example Spring MVC\staff-manager\src\main\java\com\cg\config\AppInit.java
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\service\IGeneralService.java
 D:\Example Spring MVC\staff-manager\src\main\java\com\cg\config\AppConfig.java
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\service\staff\StaffService.java
 D:\Example Spring MVC\staff-manager\src\main\java\com\cg\model\Staff.java
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\repository\IStaffRepository.java
+D:\Example Spring MVC\staff-manager\src\main\java\com\cg\service\department\IDepartmentService.java

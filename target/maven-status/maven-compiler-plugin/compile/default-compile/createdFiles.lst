@@ -1,4 +1,11 @@
-com\cg\config\AppInit.class
+com\cg\repository\IStaffRepository.class
+com\cg\service\department\DepartmentService.class
+com\cg\service\department\IDepartmentService.class
+com\cg\service\IGeneralService.class
 com\cg\config\AppConfig.class
 com\cg\model\Department.class
 com\cg\model\Staff.class
+com\cg\config\AppInit.class
+com\cg\service\staff\IStaffService.class
+com\cg\service\staff\StaffService.class
+com\cg\repository\IDepartmentRepository.class
